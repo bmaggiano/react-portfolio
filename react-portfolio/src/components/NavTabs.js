@@ -1,6 +1,11 @@
+import profilePic from './images/bprofile.jpg'
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navContainer">
+
+        <img className='brandon' src={profilePic}/>
+
     <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
         <a
