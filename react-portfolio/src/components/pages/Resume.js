@@ -4,10 +4,10 @@ export default function Resume() {
   return (
     <div>
   
-  <div class="homeContainer">
-  <div class="row">
-    <div class="col-9"></div>
-    <div class="col-4"><h5>Contact</h5>
+  <div className="homeContainer">
+  <div className="row">
+    <div className="col-9"></div>
+    <div className="col-4"><h5>Contact</h5>
     <br/>
     <p>Chandler, AZ</p>
     <p>602.999.3860</p>
@@ -43,7 +43,7 @@ export default function Resume() {
     <p>2022-2022</p>
     <p>Full Stack Coding Bootcamp</p>
     </div>
-    <div class="col-6"><h2>Brandon Maggiano</h2>
+    <div className="col-6"><h2>Brandon Maggiano</h2>
     <hr/>
     <br/>
     <h4>Summary</h4>

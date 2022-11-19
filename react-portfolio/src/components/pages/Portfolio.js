@@ -3,6 +3,7 @@ import wingman from '../images/wingman.PNG'
 import jate from '../images/jate.PNG'
 import weather from '../images/weather.PNG'
 import workday from '../images/workday.PNG'
+import codingquiz from '../images/codingquiz.PNG'
 import {
     MDBFooter,
     MDBContainer,
@@ -88,14 +89,15 @@ export default function Portfolio() {
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src={rankedify} class="card-img-top" alt="..." />
+      <img src={codingquiz} class="card-img-top" alt="..." />
       <div class="card-body">
-        <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://rankedify.herokuapp.com/'>Rankedify</a>
-        <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/Dustinm5Oly/WingMan' role='button'>
+        <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://bmaggiano.github.io/coding-quiz-challenge/'>Coding Quiz Challenge</a>
+        <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/coding-quiz-challenge' role='button'>
               <MDBIcon fab icon='github' />
             </MDBBtn></h5>
-        <p className="card-text text-center">A full stack application using Javascript, NodeJS, Sequelize, Bootstrap, and Express to allow users to rank their
-        top 5 video games of all time!</p>
+        <p className="card-text text-center">Take the 60 second coding quiz challenge and see how you rank among
+        other users! Answer 5 questions in the shortest amount of time and input your initials to put yourself 
+        in the running for best score ever!</p>
       </div>
     </div>
   </div>
