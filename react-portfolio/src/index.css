@@ -38,6 +38,31 @@ body {
   border-radius: 10px;
 }
 
+.portContainer {
+  margin: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.portContainer h2 {
+  padding-bottom: 15px;
+}
+
+.portContainer a {
+  text-decoration: none;
+  color: rgb(19, 11, 11);
+  font-weight: 500;
+  text-align: center;
+}
+.portContainer a:hover {
+  color: darkred;
+}
+
+.portTitle {
+  text-align: center;
+}
+
 .languages {
   margin: 50px;
   padding: 20px;
@@ -130,6 +155,10 @@ code {
   position: relative;
   border-radius: 15px;
   margin-right: 25px;
+}
+
+.rankedify {
+  height: 100px;
 }
 
 @media screen and (min-width: 768px) {
