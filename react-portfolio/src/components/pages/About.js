@@ -1,5 +1,8 @@
 export default function About() {
     return (
-        <h1>About</h1>
+        <div className="homeContainer">
+            <h1>Welcome to my Portfolio</h1>
+
+        </div>
     )
 }

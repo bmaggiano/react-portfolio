@@ -1,15 +1,7 @@
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className="navContainer">
     <ul className="nav nav-tabs justify-content-end">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
       <li className="nav-item">
         <a
           href="#about"
@@ -47,6 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+  </div>
   );
 }
 

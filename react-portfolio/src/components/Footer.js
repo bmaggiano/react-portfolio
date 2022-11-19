@@ -15,26 +15,20 @@ import {
       <MDBFooter className='text-center text-white'>
         <MDBContainer>
           <section className='mb-4'>
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-              <MDBIcon fab icon='facebook-f' />
-            </MDBBtn>
   
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBBtn outline color="light" floating className='m-1' target='_blank' href='https://twitter.com/BrandonMaggiano' role='button'>
               <MDBIcon fab icon='twitter' />
             </MDBBtn>
   
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-              <MDBIcon fab icon='google' />
-            </MDBBtn>
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBBtn outline color="light" floating className='m-1' target='_blank' href='https://www.instagram.com/brandonmaggiano/?hl=en' role='button'>
               <MDBIcon fab icon='instagram' />
             </MDBBtn>
   
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBBtn outline color="light" floating className='m-1' target='_blank' href='https://www.linkedin.com/in/brandon-maggiano-000490119/' role='button'>
               <MDBIcon fab icon='linkedin-in' />
             </MDBBtn>
   
-            <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBBtn outline color="light" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/' role='button'>
               <MDBIcon fab icon='github' />
             </MDBBtn>
           </section>
