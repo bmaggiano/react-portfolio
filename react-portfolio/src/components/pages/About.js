@@ -11,7 +11,7 @@ export default function About() {
         <div className="homeContainerOne">
         <section className="first-row">
     <div className="profile-side">
-        <img src={cardPic} alt="profile picture of Brandon Maggiano, a handsome young man" className='cardpic'/>
+        <img src={cardPic} alt="a picture of a laptop open with vibrant colors" className='cardpic'/>
     </div>
     <div className="profile-text">
         <h2 className="profile-name">Welcome to my React portfolio<hr/></h2> 
@@ -62,11 +62,11 @@ export default function About() {
       </div>
     </div>
     <div className="col-md-4">
-      <img src={reactPic} className="img-fluid rounded" alt="..." />
+      <img src={reactPic} className="img-fluid rounded" alt="a picture of a react web application" />
     </div>
   </div>
 </div>
 
-        </>
-    )
+</>
+  )
 }

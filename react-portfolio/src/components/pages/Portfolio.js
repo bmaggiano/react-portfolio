@@ -4,6 +4,7 @@ import jate from '../images/jate.PNG'
 import weather from '../images/weather.PNG'
 import workday from '../images/workday.PNG'
 import codingquiz from '../images/codingquiz.PNG'
+// new npm package called mdb ui kit to help with logos and footer elements
 import {
     MDBFooter,
     MDBContainer,
@@ -19,10 +20,10 @@ export default function Portfolio() {
         <div className='portContainer'>
             <h2 className='text-center'>Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src={rankedify} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={rankedify} class="card-img-top" alt="Image of rankedify app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://rankedify.herokuapp.com/'>Rankedify</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/Rankedify' role='button'>
               <MDBIcon fab icon='github' />
@@ -32,10 +33,10 @@ export default function Portfolio() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={wingman} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={wingman} class="card-img-top" alt="Image of wingman app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://dustinm5oly.github.io/WingMan/'>Wingman</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/Dustinm5Oly/WingMan' role='button'>
               <MDBIcon fab icon='github' />
@@ -46,10 +47,10 @@ export default function Portfolio() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={jate} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={jate} class="card-img-top" alt="Image of JATE app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://bmaggiano-jate.herokuapp.com/'>JATE</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/Text-Editor-Pwa' role='button'>
               <MDBIcon fab icon='github' />
@@ -59,10 +60,10 @@ export default function Portfolio() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={weather} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={weather} class="card-img-top" alt="Image of weather forecast app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://bmaggiano.github.io/Weather-App/'>Weather Forecast</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/Weather-App' role='button'>
               <MDBIcon fab icon='github' />
@@ -73,10 +74,10 @@ export default function Portfolio() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={workday} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={workday} class="card-img-top" alt="Image of workday scheduler app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://bmaggiano.github.io/Work-Day-Scheduler/'>Work Day Scheduler</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/Work-Day-Scheduler' role='button'>
               <MDBIcon fab icon='github' />
@@ -87,10 +88,10 @@ export default function Portfolio() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={codingquiz} class="card-img-top" alt="..." />
-      <div class="card-body">
+  <div className="col">
+    <div className="card h-100">
+      <img src={codingquiz} class="card-img-top" alt="image of coding quiz app" />
+      <div className="card-body">
         <h5 className='portTitle'><a className="portfolioLink card-title" target="_blank" href='https://bmaggiano.github.io/coding-quiz-challenge/'>Coding Quiz Challenge</a>
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/coding-quiz-challenge' role='button'>
               <MDBIcon fab icon='github' />
@@ -103,6 +104,6 @@ export default function Portfolio() {
   </div>
 </div>
 </div>
-        </>
-    )
+</>
+  )
 }

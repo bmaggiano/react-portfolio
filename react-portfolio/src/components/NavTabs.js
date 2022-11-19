@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="navContainer">
 
-        <img className='brandon' src={profilePic}/>
+    <img className='brandon' src={profilePic} alt="A picture of Brandon Maggiano"/>
 
     <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
