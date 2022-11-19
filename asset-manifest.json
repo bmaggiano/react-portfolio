@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.fe9bca84.css",
+    "main.js": "/react-portfolio/static/js/main.5c3699de.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/wingman.PNG": "/react-portfolio/static/media/wingman.2d4f182a899335db4285.PNG",
+    "static/media/rankedify.PNG": "/react-portfolio/static/media/rankedify.142983500090b75dcf9b.PNG",
+    "static/media/cardpic.jpg": "/react-portfolio/static/media/cardpic.309ef3e441bb095152ed.jpg",
+    "static/media/react.jpg": "/react-portfolio/static/media/react.8fcc216cd1cf37d7467e.jpg",
+    "static/media/weather.PNG": "/react-portfolio/static/media/weather.4b8feead637642dc4b94.PNG",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.73b2a102c2d2a3888e63.pdf",
+    "static/media/fa-solid-900.ttf": "/react-portfolio/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/bprofile.jpg": "/react-portfolio/static/media/bprofile.5b0633f6bab6cd41e93e.jpg",
+    "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/jate.PNG": "/react-portfolio/static/media/jate.f68bf76651e1f341c402.PNG",
+    "static/media/codingquiz.PNG": "/react-portfolio/static/media/codingquiz.7ab81e1f7a98f1b40dc6.PNG",
+    "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/workday.PNG": "/react-portfolio/static/media/workday.ec51682e5b8834d3e2fc.PNG",
+    "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/react-portfolio/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.fe9bca84.css.map": "/react-portfolio/static/css/main.fe9bca84.css.map",
+    "main.5c3699de.js.map": "/react-portfolio/static/js/main.5c3699de.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe9bca84.css",
+    "static/js/main.5c3699de.js"
+  ]
+}
