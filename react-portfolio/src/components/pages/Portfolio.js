@@ -39,7 +39,7 @@ export default function Portfolio() {
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/Dustinm5Oly/WingMan' role='button'>
               <MDBIcon fab icon='github' />
             </MDBBtn></h5>
-        <p className="card-text text-center">A project desinged to take the decision making process away from the indecisive couple.
+        <p className="card-text text-center">A project designed to take the decision making process away from the indecisive couple.
         Using server side API calls to get a random movie, dinner, and cocktail, the user can also store some of their
         favorite dates in local storage for future reference.</p>
       </div>
@@ -66,7 +66,7 @@ export default function Portfolio() {
         <MDBBtn outline color="white" floating className='m-1' target="_blank" href='https://github.com/bmaggiano/Weather-App' role='button'>
               <MDBIcon fab icon='github' />
             </MDBBtn></h5>
-        <p className="card-text text-center">An application desinged to help the user predict the weather for the current day and 
+        <p className="card-text text-center">An application designed to help the user predict the weather for the current day and 
         for the next 4 days. Integrating server side API calls once again to pull data from Open weather map API
          based off the city the user chooses.</p>
       </div>
